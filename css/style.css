@@ -5,8 +5,8 @@ body {
 }
 
 h1 {
-    font-family: 'proxima_nova_ltbold', Helvetica, Arial, sans-serif;
     text-align: center;
+    font-weight: 600;
     font-size: 3rem;
 }
 
@@ -14,6 +14,10 @@ h1 {
     text-align: center;
     font-size: 1.4rem;
     color: #666;
+}
+
+.description__company {
+    text-decoration: none;
 }
 
 .profile-links {
