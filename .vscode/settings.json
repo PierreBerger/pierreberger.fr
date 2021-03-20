@@ -1,0 +1,20 @@
+{
+    // Ensure correct version of TypeScript is used
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    // Format on save for all files by default
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // Configure import sorting
+    "importSorter.generalConfiguration.sortOnBeforeSave": true,
+    "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+    "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 120,
+    "importSorter.importStringConfiguration.tabSize": 2,
+    "importSorter.importStringConfiguration.trailingComma": "multiLine",
+    "importSorter.importStringConfiguration.quoteMark": "single",
+    "importSorter.sortConfiguration.removeUnusedImports": true,
+    "importSorter.sortConfiguration.removeUnusedDefaultImports": true,
+    "importSorter.sortConfiguration.customOrderingRules.rules": [],
+  }
