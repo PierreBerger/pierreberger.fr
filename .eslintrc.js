@@ -10,5 +10,8 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': 'off',
     'react/jsx-props-no-spreading': 'off',
   },
-  globals: {},
+  globals: {
+    document: false,
+    window: false,
+  },
 };

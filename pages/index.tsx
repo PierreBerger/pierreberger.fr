@@ -1,3 +1,4 @@
+import DarkModeSwitcher from '@components/dark-mode-switcher';
 import Github from '@icons/github.svg';
 import Gitlab from '@icons/gitlab.svg';
 import Linkedin from '@icons/linkedin.svg';
@@ -31,6 +32,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.container}>
+        <DarkModeSwitcher />
         <h1 className={styles.title}>Pierre Berger</h1>
         <p className={styles.description}>
           Front-End Engineer

@@ -2,12 +2,12 @@
   text-align: center;
   font-weight: 600;
   font-size: 3rem;
+  margin-top: 5rem;
 }
 
 .description {
   text-align: center;
   font-size: 1.4rem;
-  color: #666;
 
   &Company {
     text-decoration: none;
@@ -26,15 +26,8 @@
   }
 
   svg {
-    fill: #333;
-    color: #333;
     width: 1.5rem;
     height: 1.5rem;
-
-    &:hover {
-      fill: #888;
-      color: #888;
-    }
   }
 
   a {

@@ -1,0 +1,24 @@
+.switcher {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--switcher);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  & svg {
+    width: 1rem;
+  }
+
+  @media (min-width: 34.375rem) {
+    top: 2rem;
+    left: 2rem;
+  }
+}
