@@ -1,5 +1,6 @@
 .switcher {
   position: fixed;
+  display: flex;
   bottom: 2rem;
   right: 2rem;
 
@@ -15,6 +16,7 @@
 
   & svg {
     width: 1rem;
+    margin: auto;
   }
 
   @media (min-width: 34.375rem) {
