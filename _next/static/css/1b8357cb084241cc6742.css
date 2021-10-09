@@ -1,0 +1,1 @@
+body{font-family:proxima_nova_rgregular,Helvetica,Arial,sans-serif;background-color:var(--background);color:var(--body)}svg{color:var(--title)}svg:hover{opacity:.8}h1{color:var(--title)}:root{--background:#f9f9f9;--body:#374151;--title:#333;--switcher:#e5e7eb}[data-theme=dark]{--background:#000;--body:#9ca3af;--title:#fff;--switcher:#1f2937}a{color:#3b82f6}a:hover{color:#1d4ed8}
