@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Pierre Berger · Front-End Engineer</title>
+        <title>Pierre Berger · Full Stack Engineer</title>
 
         <meta property="og:title" content="Pierre Berger · Front-End Engineer" key="title" />
         <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
@@ -35,7 +35,7 @@ export default function Home() {
         <ThemeChanger />
         <h1 className={styles.title}>Pierre Berger</h1>
         <p className={styles.description}>
-          Front-End Engineer
+          Full Stack Engineer
           <Link href="https://wizbii.com">
             <a className={styles.descriptionCompany}> @Wizbii</a>
           </Link>
