@@ -17,7 +17,6 @@
     "baseUrl": ".",
     "paths": {
       "@styles/*": ["styles/*"],
-      "@icons/*": ["icons/*"],
       "@components/*": ["components/*"]
     },
     "incremental": true
