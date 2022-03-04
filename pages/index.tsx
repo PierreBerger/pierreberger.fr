@@ -19,9 +19,9 @@ export default function Home() {
         <h1 className={styles.title}>Pierre Berger</h1>
         <p className={styles.description}>
           Full Stack Engineer{' '}
-          <Link href="https://wizbii.com">
+          <Link href="https://fleex.com">
             <a target="_blank" rel="noopener" className={styles.descriptionCompany}>
-              @Wizbii
+              @Fleex
             </a>
           </Link>
         </p>
